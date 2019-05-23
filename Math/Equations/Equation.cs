@@ -43,7 +43,7 @@ namespace Graph.Math.Equations
             sb.Append($"{Environment.NewLine}\tNormal vector 2 {_normalVectorRight}");
             sb.Append($"{Environment.NewLine}\tEquation: {ToString()}");
 
-            Debug.Write(sb.ToString());
+            Debug.WriteLine(sb.ToString());
         }
 
         public double GetResult(double parameter)

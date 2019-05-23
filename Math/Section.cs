@@ -28,16 +28,41 @@ namespace Graph.Math
             sb.Append($"{Environment.NewLine}\tEquation: {_equation}");
             _vectorSection = _endPoint - _beginPoint;
             sb.Append($"{Environment.NewLine}\tVector section: {_vectorSection}");
-            Debug.Write(sb.ToString());
+            Debug.WriteLine(sb.ToString());
         }
 
 
         public bool IsIntersectionPoint(Section a)
         {
+            StringBuilder sb = new StringBuilder();
+            sb.Append($"{Environment.NewLine}Check exist intersection point");
+            sb.Append($"{Environment.NewLine}\tFirst section");
+            sb.Append($"{Environment.NewLine}\t\tBegin point\t- {this.BeginPoint}");
+            sb.Append($"{Environment.NewLine}\t\tEnd point\t- {this.EndPoint}");
+            sb.Append($"{Environment.NewLine}\t\tSection's vector\t- {this.VectorSection}");
+            sb.Append($"{Environment.NewLine}\tSecond section");
+            sb.Append($"{Environment.NewLine}\t\tBegin point\t- {a.BeginPoint}");
+            sb.Append($"{Environment.NewLine}\t\tEnd point\t- {a.EndPoint}");
+            sb.Append($"{Environment.NewLine}\t\tSection vector\t- {a.VectorSection}");
+            Debug.WriteLine(sb.ToString());
+            sb.Clear();
             Point vectorToA1 = a._beginPoint - _beginPoint,
-                vectorToA2 = a._endPoint - _beginPoint;
-            double z1 = Point.VectorMult(_vectorSection, vectorToA1).Z;
-            double z2 = Point.VectorMult(_vectorSection, vectorToA2).Z;
+                vectorToA2 = a._endPoint - _beginPoint,
+                vResult1 = Point.VectorMult(_vectorSection, vectorToA1),
+                vResult2 = Point.VectorMult(_vectorSection, vectorToA2);
+            sb.Append($"{Environment.NewLine}\tResult vectors");
+            sb.Append($"{Environment.NewLine}\t\tVector AC\t- {vectorToA1}");
+            sb.Append($"{Environment.NewLine}\t\tVector AD\t- {vectorToA2}");
+            sb.Append($"{Environment.NewLine}\t\tVector AB*AC\t- {vResult1}");
+            sb.Append($"{Environment.NewLine}\t\tVector AB*AD\t- {vResult2}");
+            Debug.WriteLine(sb.ToString());
+            sb.Clear();
+            double z1 = vResult1.Z;
+            double z2 = vResult2.Z;
+            sb.Append($"{Environment.NewLine}\tResult");
+            sb.Append($"{Environment.NewLine}\t\tAB*AC.Z\t- {z1:F2}");
+            sb.Append($"{Environment.NewLine}\t\tAB*AD.Z\t- {z2:F2}");
+            Debug.WriteLine(sb.ToString());
             if (z1 > 0 & z2 > 0 || z2 < 0 & z1 < 0)
                 return false;
             return true;
