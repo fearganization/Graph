@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Graph.Math.Equations
 {
-    public class Equation
+    public class EquationLinePlane
     {
 
         private double _A;
@@ -20,7 +20,7 @@ namespace Graph.Math.Equations
         public Point NormalVectorLeft { get => _normalVectorLeft; }
         public Point NormalVectorRight { get => _normalVectorRight; }
 
-        public Equation(Point point1, Point point2)
+        public EquationLinePlane(Point point1, Point point2)
         {
             StringBuilder sb = new StringBuilder();
             sb.Append($"{Environment.NewLine}Build new equation");

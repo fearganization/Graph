@@ -2,7 +2,7 @@ using System;
 
 namespace Graph.Math
 {
-    public class Point
+    public struct Point
     {
         public Point(double x = 0, double y = 0, double z = 0)
         {
