@@ -1,0 +1,17 @@
+C:\Users\Sartakov-D\Documents\Repository\Other\Graph\UnitTests\bin\Debug\netcoreapp2.1\NUnit3.TestAdapter.dll
+C:\Users\Sartakov-D\Documents\Repository\Other\Graph\UnitTests\bin\Debug\netcoreapp2.1\NUnit3.TestAdapter.pdb
+C:\Users\Sartakov-D\Documents\Repository\Other\Graph\UnitTests\bin\Debug\netcoreapp2.1\nunit.engine.netstandard.dll
+C:\Users\Sartakov-D\Documents\Repository\Other\Graph\UnitTests\bin\Debug\netcoreapp2.1\UnitTests.deps.json
+C:\Users\Sartakov-D\Documents\Repository\Other\Graph\UnitTests\bin\Debug\netcoreapp2.1\UnitTests.runtimeconfig.json
+C:\Users\Sartakov-D\Documents\Repository\Other\Graph\UnitTests\bin\Debug\netcoreapp2.1\UnitTests.runtimeconfig.dev.json
+C:\Users\Sartakov-D\Documents\Repository\Other\Graph\UnitTests\bin\Debug\netcoreapp2.1\UnitTests.dll
+C:\Users\Sartakov-D\Documents\Repository\Other\Graph\UnitTests\bin\Debug\netcoreapp2.1\UnitTests.pdb
+C:\Users\Sartakov-D\Documents\Repository\Other\Graph\UnitTests\bin\Debug\netcoreapp2.1\Graph.dll
+C:\Users\Sartakov-D\Documents\Repository\Other\Graph\UnitTests\bin\Debug\netcoreapp2.1\Graph.pdb
+C:\Users\Sartakov-D\Documents\Repository\Other\Graph\UnitTests\obj\Debug\netcoreapp2.1\UnitTests.csprojAssemblyReference.cache
+C:\Users\Sartakov-D\Documents\Repository\Other\Graph\UnitTests\obj\Debug\netcoreapp2.1\UnitTests.csproj.CoreCompileInputs.cache
+C:\Users\Sartakov-D\Documents\Repository\Other\Graph\UnitTests\obj\Debug\netcoreapp2.1\UnitTests.AssemblyInfoInputs.cache
+C:\Users\Sartakov-D\Documents\Repository\Other\Graph\UnitTests\obj\Debug\netcoreapp2.1\UnitTests.AssemblyInfo.cs
+C:\Users\Sartakov-D\Documents\Repository\Other\Graph\UnitTests\obj\Debug\netcoreapp2.1\UnitTests.csproj.CopyComplete
+C:\Users\Sartakov-D\Documents\Repository\Other\Graph\UnitTests\obj\Debug\netcoreapp2.1\UnitTests.dll
+C:\Users\Sartakov-D\Documents\Repository\Other\Graph\UnitTests\obj\Debug\netcoreapp2.1\UnitTests.pdb
